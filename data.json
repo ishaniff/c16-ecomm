@@ -1,0 +1,121 @@
+{
+  "products": [
+    {
+      "name": "Peppermint",
+      "isFeatured": true,
+      "weight": "1 Pound",
+      "description": "",
+      "price": 19.99,
+      "category": "Loose Leaf",
+      "image": ""
+    },
+    {
+      "name": "Himilayan Green",
+      "isFeatured": false,
+      "weight": "1 Pound",
+      "description": "",
+      "price": 19.99,
+      "category": "Loose Leaf",
+      "image": ""
+    },
+    {
+      "name": "Strawberry Rose",
+      "isFeatured": false,
+      "weight": "1 Pound",
+      "description": "",
+      "price": 19.99,
+      "category": "Loose Leaf",
+      "image": ""
+    },
+    {
+      "name": "Vanilla Chai",
+      "isFeatured": false,
+      "weight": "1 Pound",
+      "description": "",
+      "price": 19.99,
+      "category": "Loose Leaf",
+      "image": ""
+    },
+    {
+      "name": "Passionfruit Green",
+      "isFeatured": false,
+      "weight": "1 Pound",
+      "description": "",
+      "price": 19.99,
+      "category": "Loose Leaf",
+      "image": ""
+    },
+    {
+      "name": "Chamomile",
+      "isFeatured": true,
+      "weight": "1 Pound",
+      "description": "",
+      "price": 19.99,
+      "category": "Loose Leaf",
+      "image": ""
+    },
+    {
+      "name": "Chamomile Lavender",
+      "isFeatured": true,
+      "weight": "1 Pound",
+      "description": "",
+      "price": 19.99,
+      "category": "Loose Leaf",
+      "image": ""
+    },
+    {
+      "name": "Ginger Lemon",
+      "isFeatured": true,
+      "weight": "1 Pound",
+      "description": "",
+      "price": 19.99,
+      "category": "Loose Leaf",
+      "image": ""
+    },
+    {
+      "name": "Lavender",
+      "isFeatured": false,
+      "weight": "1 Pound",
+      "description": "",
+      "price": 19.99,
+      "category": "Loose Leaf",
+      "image": ""
+    },
+    {
+      "name": "Tulsi Tumeric",
+      "isFeatured": false,
+      "weight": "1 Pound",
+      "description": "",
+      "price": 19.99,
+      "category": "Loose Leaf",
+      "image": ""
+    },
+    {
+      "name": "Gunpowder Green",
+      "isFeatured": false,
+      "weight": "1 Pound",
+      "description": "",
+      "price": 19.99,
+      "category": "Loose Leaf",
+      "image": ""
+    },
+    {
+      "name": "Cinnamon Apple",
+      "isFeatured": false,
+      "weight": "1 Pound",
+      "description": "",
+      "price": 19.99,
+      "category": "Loose Leaf",
+      "image": ""
+    },
+    {
+      "name": "English Breakfast",
+      "isFeatured": false,
+      "weight": "1 Pound",
+      "description": "",
+      "price": 19.99,
+      "category": "Loose Leaf",
+      "image": ""
+    }
+  ]
+}

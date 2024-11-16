@@ -1,0 +1,58 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Faculty Glyphic", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+header {
+  background-color: rebeccapurple;
+  height: 5vh;
+  ul {
+    display: flex;
+  }
+  li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0 0 30vw;
+    margin: 0;
+    padding: 0;
+    a:hover {
+      color: white;
+    }
+  }
+}
+
+#main {
+  background-color: blue;
+  width: 100%;
+  height: 95vh;
+}
+
+h1 {
+  padding: 0;
+  margin: 0;
+}
+
+.productSearch {
+  background-color: red;
+  width: 30%;
+  height: 95vh;
+  div {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.productGrid {
+  background-color: pink;
+  width: 70%;
+  height: 100%;
+  float: right;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto auto auto;
+  text-align: center;
+}
