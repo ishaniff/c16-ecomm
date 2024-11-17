@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <!--Importing social media icon sheet-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <!--Import Google Icon Font-->
     <link
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
@@ -18,19 +23,84 @@
     <link rel="stylesheet" href="styles.css" />
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contact Page</title>
+    <title>Products Page</title>
   </head>
   <body>
     <header class="valign-wrapper">
-      <ul>
+      <ul class="valign-wrapper">
+        <li>
+          <a href="index.html"
+            ><img class="navImage" src="/images/logoArtBrand.png"
+          /></a>
+        </li>
         <li><a href="index.html">Home Page</a></li>
         <li><a href="products.html">Products Page</a></li>
-        <li><a href="contact.html">Contact Us Page</a></li>
+        <li class="active"><a href="contact.html">Contact Us Page</a></li>
       </ul>
     </header>
-    <div id="main"><h1>Contact</h1></div>
+    <div id="main" class="container">
+      <div class="container">
+        <div class="formContainer">
+          <div class="form">
+            <form id="formContact">
+              <label for="name">Name <input id="name" type="text" /></label>
+              <label for="phonenumber"
+                >Phone Number
+                <input id="phonenumber" type="text" maxlength="10"
+              /></label>
+              <label for="email"
+                >Email Address <input id="email" type="text"
+              /></label>
+              <label name="reasonsList"
+                >Select A Reason:
+                <select class="browser-default" id="reasonsList" name="reasons">
+                  <option value="" disabled selected>Select One:</option>
+                  <option value="bulk">Bulk Buyer</option>
+                  <option value="suppliers">Suppliers</option>
+                  <option value="media">Media</option>
+                </select>
+              </label>
+              <input id="submit" type="submit" value="Submit" />
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="footerContainer">
+        <div>
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/in/issiah-haniff-9436a9333/"
+            class="fa fa-linkedin"
+          ></a>
+          <a
+            target="_blank"
+            href="https://www.youtube.com/@TeaTimeWebb"
+            class="fa fa-youtube"
+          ></a>
+          <a
+            target="_blank"
+            href="https://www.instagram.com/teatimeweb/"
+            class="fa fa-instagram"
+          ></a>
+        </div>
+        <ul>
+          <li><a href="index.html">Home Page</a></li>
+          <li><a href="products.html">Products Page</a></li>
+          <li><a href="contact.html">Contact Us Page</a></li>
+        </ul>
+        <p>
+          Copyright &copy; 2024. All rights reserved. Passion project made by
+          <a target="_blank" href="https://github.com/ishaniff">ishaniff</a>.
+          <a target="_blank" href="https://github.com/ishaniff/c16-ecomm"
+            ><i class="fa fa-github"></i> GitHub repo</a
+          >.
+        </p>
+      </div>
+    </footer>
     <!--JavaScript at end of body for optimized loading-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <script src="scripts.js"></script>
+    <script src="scriptsContact.js"></script>
   </body>
 </html>

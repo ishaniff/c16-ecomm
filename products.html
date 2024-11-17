@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <!--Importing social media icon sheet-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <!--Import Google Icon Font-->
     <link
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
@@ -22,39 +27,76 @@
   </head>
   <body>
     <header class="valign-wrapper">
-      <ul>
+      <ul class="valign-wrapper">
+        <li>
+          <a href="index.html"
+            ><img class="navImage" src="/images/logoArtBrand.png"
+          /></a>
+        </li>
         <li><a href="index.html">Home Page</a></li>
-        <li><a href="products.html">Products Page</a></li>
+        <li class="active"><a href="products.html">Products Page</a></li>
         <li><a href="contact.html">Contact Us Page</a></li>
       </ul>
     </header>
-    <div id="main">
-      <div class="productGrid valign-wrapper">
-        <p>hi</p>
-        <p>hi</p>
-        <p>hi</p>
-        <p>hi</p>
-        <p>hi</p>
-        <p>hi</p>
-        <p>hi</p>
-        <p>hi</p>
-        <p>hi</p>
-        <p>hi</p>
-        <p>hi</p>
-        <p>hi</p>
+    <div id="main" class="container">
+      <div class="gridHolder">
+        <div id="productGrid" class="productGrid valign-wrapper"></div>
       </div>
       <div class="productSearch">
         <div>
-          <button><label>example one</label></button>
-          <button><label>example one</label></button>
-          <button><label>example one</label></button>
-          <button><label>example one</label></button>
-          <button><label>example one</label></button>
+          <button onclick="sortAlphabetical()">
+            <label>Sort Alphabetically</label>
+          </button>
+          <button onclick="sortFeatured()">
+            <label>Featured Products</label>
+          </button>
+          <button onclick="sortPriceLH()">
+            <label>Price Low To High</label>
+          </button>
+          <button onclick="sortPriceHL()">
+            <label>Price High To Low</label>
+          </button>
+          <button onclick="sortWeightHL()">
+            <label>Weight High To Low</label>
+          </button>
         </div>
       </div>
     </div>
+    <footer>
+      <div class="footerContainer">
+        <div>
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/in/issiah-haniff-9436a9333/"
+            class="fa fa-linkedin"
+          ></a>
+          <a
+            target="_blank"
+            href="https://www.youtube.com/@TeaTimeWebb"
+            class="fa fa-youtube"
+          ></a>
+          <a
+            target="_blank"
+            href="https://www.instagram.com/teatimeweb/"
+            class="fa fa-instagram"
+          ></a>
+        </div>
+        <ul>
+          <li><a href="index.html">Home Page</a></li>
+          <li><a href="products.html">Products Page</a></li>
+          <li><a href="contact.html">Contact Us Page</a></li>
+        </ul>
+        <p>
+          Copyright &copy; 2024. All rights reserved. Passion project made by
+          <a target="_blank" href="https://github.com/ishaniff">ishaniff</a>.
+          <a target="_blank" href="https://github.com/ishaniff/c16-ecomm"
+            ><i class="fa fa-github"></i> GitHub repo</a
+          >.
+        </p>
+      </div>
+    </footer>
     <!--JavaScript at end of body for optimized loading-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <script src="scripts.js"></script>
+    <script src="scriptsProducts.js"></script>
   </body>
 </html>

@@ -23,6 +23,31 @@ Cognac
 Taupe
 #E9E6E2
 
+Everglade
+
+Thatch Green
+
+Chalet Green
+
+Sycamore
+
+Barley Corn
+
+#1c3b26
+rgb(28, 59, 38)
+
+#41511f
+rgb(65, 81, 31)
+
+#577836
+rgb(87, 120, 54)
+
+#848d3f
+rgb(132, 141, 63)
+
+#94944c
+rgb(148, 148, 76)
+
 Font Choice "Faculty Glyphic"
 https://fonts.google.com/specimen/Faculty+Glyphic?preview.text=Incredible%20Website%20and%20Font
 
