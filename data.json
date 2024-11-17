@@ -5,7 +5,7 @@
       "isFeatured": true,
       "weight": "1 Pound",
       "description": "Fresh peppermint to help relax and unwind",
-      "price": 19.99,
+      "price": 15.99,
       "category": "Loose Leaf",
       "image": "/images/tea/peppermint.jpg"
     },
@@ -14,7 +14,7 @@
       "isFeatured": false,
       "weight": "1 Pound",
       "description": "Green tea from the mountains.",
-      "price": 19.99,
+      "price": 17.99,
       "category": "Loose Leaf",
       "image": "/images/tea/greenHimilayan.jpg"
     },
@@ -23,7 +23,7 @@
       "isFeatured": false,
       "weight": "1 Pound",
       "description": "Elements of strawberries, rose, and black tea.",
-      "price": 19.99,
+      "price": 16.99,
       "category": "Loose Leaf",
       "image": "/images/tea/strawberryEssense.jpg"
     },
@@ -32,7 +32,7 @@
       "isFeatured": false,
       "weight": "1 Pound",
       "description": "A classic in many households, usually for breakfast and made with milk.",
-      "price": 19.99,
+      "price": 18.99,
       "category": "Loose Leaf",
       "image": "/images/tea/vanillaChai.jpg"
     },
@@ -50,7 +50,7 @@
       "isFeatured": true,
       "weight": "1 Pound",
       "description": "Amazing taste and smell, great for night time to help relax and unwind.",
-      "price": 19.99,
+      "price": 15.99,
       "category": "Loose Leaf",
       "image": "/images/tea/chamomile.jpg"
     },
@@ -59,7 +59,7 @@
       "isFeatured": true,
       "weight": "1 Pound",
       "description": "Even better that Chamomile alone to help unwind and relax.",
-      "price": 19.99,
+      "price": 16.99,
       "category": "Loose Leaf",
       "image": "/images/tea/chamomileLavender.jpg"
     },
@@ -68,7 +68,7 @@
       "isFeatured": true,
       "weight": "1 Pound",
       "description": "Great all the time but even better during times of sickness.",
-      "price": 19.99,
+      "price": 21.99,
       "category": "Loose Leaf",
       "image": "/images/tea/gingerLemon.jpg"
     },
@@ -77,7 +77,7 @@
       "isFeatured": false,
       "weight": "1 Pound",
       "description": "Yes it smells just like you think it would, extremely soothing and calming for the mental.",
-      "price": 19.99,
+      "price": 16.99,
       "category": "Loose Leaf",
       "image": "/images/tea/lavender.jpg"
     },
@@ -86,7 +86,7 @@
       "isFeatured": false,
       "weight": "1 Pound",
       "description": "Potent tumeric that will make your day better with enhanced clarity and sleep.",
-      "price": 19.99,
+      "price": 25.99,
       "category": "Loose Leaf",
       "image": "/images/tea/tulsiTumeric.jpg"
     },
@@ -95,7 +95,7 @@
       "isFeatured": false,
       "weight": "1 Pound",
       "description": "Classic green tea with extreme potency and high contents of caffeine, that should come with no or minimal crash.",
-      "price": 19.99,
+      "price": 13.99,
       "category": "Loose Leaf",
       "image": "/images/tea/gunpowderGreen.jpg"
     },
@@ -104,7 +104,7 @@
       "isFeatured": false,
       "weight": "1 Pound",
       "description": "Great for sleeping and it's anti-inflammatory properties, wonderful to relax.",
-      "price": 19.99,
+      "price": 14.99,
       "category": "Loose Leaf",
       "image": "/images/tea/cinnamonApple.jpg"
     },
@@ -113,7 +113,7 @@
       "isFeatured": false,
       "weight": "1 Pound",
       "description": "A great addition to anyones breakfast routine, extremely popular drink everywhere outside the USA.",
-      "price": 19.99,
+      "price": 13.99,
       "category": "Loose Leaf",
       "image": "/images/tea/englishBreakfast.jpg"
     }
