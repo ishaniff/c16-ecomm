@@ -35,7 +35,8 @@ header {
 }
 
 .navImage {
-  height: 4vh;
+  height: 50px;
+  padding-top: 5px;
 }
 
 a {
@@ -89,13 +90,14 @@ h1 {
 }
 
 .productGrid {
-  width: 80%;
+  /* width: 80%; */
+  padding: 20px;
   height: 100%;
   float: right;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(3, 1fr);
-  gap: 10px;
+  gap: 20px;
   text-align: center;
   div {
     width: 100%;
@@ -174,6 +176,11 @@ footer {
 }
 
 @media (width < 550px) {
+  header {
+    li {
+      font-size: 1.2em;
+    }
+  }
   .productGrid {
     grid-template-columns: repeat(1, 1fr);
     img {
@@ -183,12 +190,22 @@ footer {
 }
 
 @media (width > 800px) {
+  header {
+    li {
+      font-size: 1.5em;
+    }
+  }
   .productGrid {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media (width > 1100px) {
+  header {
+    li {
+      font-size: 2em;
+    }
+  }
   .productGrid {
     grid-template-columns: repeat(3, 1fr);
   }
